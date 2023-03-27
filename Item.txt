@@ -1,0 +1,4 @@
+CREATE TABLE Item(itemNumber INTEGER Primary Key not Null, itemName text not null, itemDescription text not null)
+INSERT INTO Item(itemNumber, itemName, itemDescription) Values(1, 'Torch', 'A small stick with cloth at the end. Seems like it can light the way.')
+INSERT INTO Item(itemNumber, itemName, itemDescription) Values(2, 'Rusty Sword', 'A sword from an ancient civilization.')
+INSERT INTO Item(itemNumber, itemName, itemDescription) Values(3, 'Wooden Shield', 'Looks sturdy enough to block attacks.')
